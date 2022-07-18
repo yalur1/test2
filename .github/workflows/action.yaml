@@ -18,7 +18,6 @@ jobs:
       - name: Install libraries 
         run: |
             cd function 
-            cat /etc/os-release >> test.txt
             pwd >> test.txt
             uname -a >> test.txt
             python -m pip install --upgrade pip
