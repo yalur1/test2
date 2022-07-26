@@ -1,7 +1,7 @@
 pipeline {
     agent any
     parameters {
-      Name2='trolik'
+        string(Name2: 'PERSON', defaultValue: 'trilok', description: 'Who should I say hello to?')
     }
     stages {
         stage('Hello') {
