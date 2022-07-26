@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Hello World'
                 echo "echo $Name >> data.txt"
-                "cat ./data/txt"
+                echo "cat ./data/txt"
             }
         }
     }
