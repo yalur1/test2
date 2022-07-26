@@ -1,10 +1,9 @@
 pipeline {
     agent any
-
+    parameters {
+      Name2='trolik'
+    }
     stages {
-        parameters {
-            Name2=trolik
-        }
         stage('Hello') {
             steps {
                 echo 'Hello World'
