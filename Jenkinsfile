@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                echo $Name >> data.txt
+                echo "echo $Name >> data.txt"
             }
         }
     }
