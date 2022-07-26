@@ -8,7 +8,7 @@ pipeline {
             steps {
                 echo 'Hello World'
                 echo "echo $Name >> data.txt"
-                echo "echo $name"
+                echo "echo ${params.PERSON}"
                 echo "cat ./data.txt"
             }
         }
